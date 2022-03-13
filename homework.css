@@ -1,0 +1,36 @@
+.container{
+    background-color: blanchedalmond;
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+}
+.left{
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center; 
+    flex-direction: column;
+}
+.left img:active{
+    border: 1px solid rgb(255, 0, 21);
+    height: 300px;
+    width: 300px;
+
+}
+.right{
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center; 
+    flex-direction: column;
+    background-color: purple;
+}
+.right img:hover{
+    border: 1px solid rgb(255, 0, 0);
+    height: 300px;
+    width: 300px;
+    transition: 1s;
+}
+img{
+    border-radius: 50%;
+}
